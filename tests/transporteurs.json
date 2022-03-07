@@ -1,0 +1,174 @@
+{
+  "transporteurs": [
+    {
+      "id": "transporteur A",
+      "workSchedule": {
+        "start": "07:00",
+        "end": "14:00"
+      },
+      "workArea": {
+        "latitude": 50.5067,
+        "longitude": 3.2755,
+        "radiusInKm": 16
+      },
+      "maxWeightInKg": 288,
+      "maxVolumeInM3": 14,
+      "maxPacketWeightInKg": 53,
+      "maxSpeedInKmh": 48,
+      "costInEuros": 10
+    },
+    {
+      "id": "transporteur B",
+      "workSchedule": {
+        "start": "02:00",
+        "end": "09:00"
+      },
+      "workArea": {
+        "latitude": 50.6092,
+        "longitude": 3.2786,
+        "radiusInKm": 13
+      },
+      "maxWeightInKg": 245,
+      "maxVolumeInM3": 14,
+      "maxPacketWeightInKg": 46,
+      "maxSpeedInKmh": 56,
+      "costInEuros": 17
+    },
+    {
+      "id": "transporteur C",
+      "workSchedule": {
+        "start": "03:00",
+        "end": "09:00"
+      },
+      "workArea": {
+        "latitude": 50.6154,
+        "longitude": 2.9304,
+        "radiusInKm": 22
+      },
+      "maxWeightInKg": 71,
+      "maxVolumeInM3": 10,
+      "maxPacketWeightInKg": 26,
+      "maxSpeedInKmh": 60,
+      "costInEuros": 19
+    },
+    {
+      "id": "transporteur D",
+      "workSchedule": {
+        "start": "19:00",
+        "end": "02:00"
+      },
+      "workArea": {
+        "latitude": 50.6086,
+        "longitude": 3.2609,
+        "radiusInKm": 12
+      },
+      "maxWeightInKg": 227,
+      "maxVolumeInM3": 13,
+      "maxPacketWeightInKg": 56,
+      "maxSpeedInKmh": 69,
+      "costInEuros": 11
+    },
+    {
+      "id": "transporteur E",
+      "workSchedule": {
+        "start": "07:00",
+        "end": "11:00"
+      },
+      "workArea": {
+        "latitude": 50.6766,
+        "longitude": 3.2836,
+        "radiusInKm": 11
+      },
+      "maxWeightInKg": 185,
+      "maxVolumeInM3": 10,
+      "maxPacketWeightInKg": 69,
+      "maxSpeedInKmh": 46,
+      "costInEuros": 12
+    },
+    {
+      "id": "transporteur F",
+      "workSchedule": {
+        "start": "00:00",
+        "end": "07:00"
+      },
+      "workArea": {
+        "latitude": 50.5775,
+        "longitude": 2.9949,
+        "radiusInKm": 15
+      },
+      "maxWeightInKg": 155,
+      "maxVolumeInM3": 14,
+      "maxPacketWeightInKg": 47,
+      "maxSpeedInKmh": 77,
+      "costInEuros": 12
+    },
+    {
+      "id": "transporteur G",
+      "workSchedule": {
+        "start": "14:00",
+        "end": "18:00"
+      },
+      "workArea": {
+        "latitude": 50.6955,
+        "longitude": 3.0931,
+        "radiusInKm": 22
+      },
+      "maxWeightInKg": 236,
+      "maxVolumeInM3": 13,
+      "maxPacketWeightInKg": 18,
+      "maxSpeedInKmh": 76,
+      "costInEuros": 15
+    },
+    {
+      "id": "transporteur H",
+      "workSchedule": {
+        "start": "23:00",
+        "end": "05:00"
+      },
+      "workArea": {
+        "latitude": 50.5716,
+        "longitude": 2.9706,
+        "radiusInKm": 23
+      },
+      "maxWeightInKg": 286,
+      "maxVolumeInM3": 10,
+      "maxPacketWeightInKg": 24,
+      "maxSpeedInKmh": 78,
+      "costInEuros": 13
+    },
+    {
+      "id": "transporteur I",
+      "workSchedule": {
+        "start": "07:00",
+        "end": "11:00"
+      },
+      "workArea": {
+        "latitude": 50.5575,
+        "longitude": 3.1763,
+        "radiusInKm": 7
+      },
+      "maxWeightInKg": 122,
+      "maxVolumeInM3": 13,
+      "maxPacketWeightInKg": 48,
+      "maxSpeedInKmh": 77,
+      "costInEuros": 17
+    },
+    {
+      "id": "transporteur J",
+      "workSchedule": {
+        "start": "09:00",
+        "end": "13:00"
+      },
+      "workArea": {
+        "latitude": 50.6545,
+        "longitude": 2.9847,
+        "radiusInKm": 24
+      },
+      "maxWeightInKg": 209,
+      "maxVolumeInM3": 11,
+      "maxPacketWeightInKg": 56,
+      "maxSpeedInKmh": 47,
+      "costInEuros": 13
+    }
+  ]
+}

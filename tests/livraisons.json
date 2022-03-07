@@ -1,0 +1,174 @@
+{
+  "livraisons": [
+    {
+      "id": "livraison A",
+      "coordRetrait": {
+        "latitude": 50.5804,
+        "longitude": 3.1594
+      },
+      "coordLivraison": {
+        "latitude": 50.6136,
+        "longitude": 2.8308
+      },
+      "creneau": {
+        "start": "08:00",
+        "end": "15:00"
+      },
+      "VolumeInM3": 11,
+      "PacketWeightInKg": 52
+    },
+    {
+      "id": "livraison B",
+      "coordRetrait": {
+        "latitude": 50.6574,
+        "longitude": 3.0614
+      },
+      "coordLivraison": {
+        "latitude": 50.6341,
+        "longitude": 2.8834
+      },
+      "creneau": {
+        "start": "00:00",
+        "end": "07:00"
+      },
+      "VolumeInM3": 10,
+      "PacketWeightInKg": 51
+    },
+    {
+      "id": "livraison C",
+      "coordRetrait": {
+        "latitude": 50.619,
+        "longitude": 3.294
+      },
+      "coordLivraison": {
+        "latitude": 50.5182,
+        "longitude": 3.1131
+      },
+      "creneau": {
+        "start": "16:00",
+        "end": "22:00"
+      },
+      "VolumeInM3": 13,
+      "PacketWeightInKg": 40
+    },
+    {
+      "id": "livraison D",
+      "coordRetrait": {
+        "latitude": 50.6806,
+        "longitude": 2.7814
+      },
+      "coordLivraison": {
+        "latitude": 50.5567,
+        "longitude": 3.3106
+      },
+      "creneau": {
+        "start": "08:00",
+        "end": "13:00"
+      },
+      "VolumeInM3": 13,
+      "PacketWeightInKg": 68
+    },
+    {
+      "id": "livraison E",
+      "coordRetrait": {
+        "latitude": 50.5952,
+        "longitude": 3.1845
+      },
+      "coordLivraison": {
+        "latitude": 50.5405,
+        "longitude": 2.8462
+      },
+      "creneau": {
+        "start": "00:00",
+        "end": "03:00"
+      },
+      "VolumeInM3": 14,
+      "PacketWeightInKg": 60
+    },
+    {
+      "id": "livraison F",
+      "coordRetrait": {
+        "latitude": 50.6515,
+        "longitude": 3.1418
+      },
+      "coordLivraison": {
+        "latitude": 50.5533,
+        "longitude": 3.4024
+      },
+      "creneau": {
+        "start": "13:00",
+        "end": "21:00"
+      },
+      "VolumeInM3": 13,
+      "PacketWeightInKg": 28
+    },
+    {
+      "id": "livraison G",
+      "coordRetrait": {
+        "latitude": 50.6208,
+        "longitude": 3.3779
+      },
+      "coordLivraison": {
+        "latitude": 50.5666,
+        "longitude": 2.8258
+      },
+      "creneau": {
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "VolumeInM3": 13,
+      "PacketWeightInKg": 58
+    },
+    {
+      "id": "livraison H",
+      "coordRetrait": {
+        "latitude": 50.5574,
+        "longitude": 3.1486
+      },
+      "coordLivraison": {
+        "latitude": 50.6261,
+        "longitude": 2.7776
+      },
+      "creneau": {
+        "start": "22:00",
+        "end": "06:00"
+      },
+      "VolumeInM3": 10,
+      "PacketWeightInKg": 46
+    },
+    {
+      "id": "livraison I",
+      "coordRetrait": {
+        "latitude": 50.59,
+        "longitude": 3.2522
+      },
+      "coordLivraison": {
+        "latitude": 50.7239,
+        "longitude": 3.2833
+      },
+      "creneau": {
+        "start": "21:00",
+        "end": "01:00"
+      },
+      "VolumeInM3": 11,
+      "PacketWeightInKg": 42
+    },
+    {
+      "id": "livraison J",
+      "coordRetrait": {
+        "latitude": 50.6295,
+        "longitude": 3.4391
+      },
+      "coordLivraison": {
+        "latitude": 50.6839,
+        "longitude": 3.0198
+      },
+      "creneau": {
+        "start": "22:00",
+        "end": "02:00"
+      },
+      "VolumeInM3": 13,
+      "PacketWeightInKg": 53
+    }
+  ]
+}
