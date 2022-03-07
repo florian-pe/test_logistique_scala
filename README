@@ -1,0 +1,114 @@
+
+#####################
+#   SPECIFICATION   #
+#####################
+
+PROTOCOL
+Unix socket, port 8080
+(ce serveur est local et ne permet pas de servir de requêtes http provent du réseau)
+
+ENCRYPTAGE
+aucun
+
+AUTHENTIFICATION
+aucune
+
+
+---------------------------------------
+FORMAT D'UN TRANSPORTEUR
+
+EXEMPLE :
+
+{
+  "id": "marcus chrono",
+  "workSchedule": {
+    "start": "09:00",           // heure au fuseau horaire UTC+01:00
+    "end": "14:00"
+  },
+  "workArea": {
+    "latitude": 43.2969901,
+    "longitude": 5.3789783,
+    "radiusInKm": 10
+  },
+  "maxWeightInKg": 200,
+  "maxVolumeInM3": 12,
+  "maxPacketWeightInKg": 10,
+  "maxSpeedInKmh": 50,
+  "costInEuros": 13
+}
+
+---------------------------------------
+FORMAT D'UNE LIVRAISON
+
+EXEMPLE :
+
+{
+  "id": "livraison A",
+  "coordRetrait": {
+    "latitude": 50.5804,
+    "longitude": 3.1594
+  },
+  "coordLivraison": {
+    "latitude": 50.6136,
+    "longitude": 2.8308
+  },
+  "creneau": {
+    "start": "08:00",
+    "end": "15:00"
+  },
+  "VolumeInM3": 11,
+  "PacketWeightInKg": 52
+}
+
+
+---------------------------------------
+FORMAT D'UNE REQUETE
+
+{
+    "livraisons":[
+    ]
+}
+
+---------------------------------------
+
+FORMAT D'UNE REPONSE
+
+{
+    "compatibles":[
+        // liste de transporteurs fomatés selon le format décrit ci-dessus
+        // et ordonnés par order croissant de coût de livraison
+    ],
+    "partiellement-compatibles":[
+        // liste de transporteurs
+    ],
+    "non-compatibles":[
+        // liste de transporteurs
+    ]
+}
+
+---------------------------------------
+
+
+IDEES D'AMELIORATIONS
+
+- encryptage des requètes et des réponses
+- mise en place d'un mécanisme d'authentifiation et de session
+- sélection d'un meilleur format de chaînes de caractères pour spécifier les heures (et la date)
+    (ISO 8601 par exemple)
+- création d'une suite de tests
+- établissement des conventions de noms
+
+AMELIORATION ALGORITHMIQUES
+Les transporteurs sont classifiés selon plusieurs critères
+- plages horaires
+- localisation géographique
+- poids maximal total de livraison
+- poids maximal total d'un colis
+- volume maximal total
+
+Le critère variant selon la plus grande amplitude est probablement la localisation géographique. Et donc c'est le crière susceptible d'être le plus disciminant lors d'une recherche du meilleur transporteur en terme de coût.
+
+Il serait donc judicieux de pré-trier les transporteurs et de les stocker dans un tableau à 2 dimensions de manière à avoir un temps algorithmique de recherche inférieur à O(n).
+
+Etant donné que ce présent exercice requiert de classifier l'intégralité des transporteurs de la flotte, il n'y a pas d'intérêt à le faire pour l'instant. Il y aurait un intérêt si l'on devait filtrer les transporteurs pour ne retenir que ceux correspondant totalement ou partiellement aux critères de sélection.
+
