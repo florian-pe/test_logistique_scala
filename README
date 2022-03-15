@@ -64,10 +64,7 @@ EXEMPLE :
 ---------------------------------------
 FORMAT D'UNE REQUETE
 
-{
-    "livraisons":[
-    ]
-}
+// object JSON ayant le même format qu'une livraison
 
 ---------------------------------------
 
@@ -75,8 +72,7 @@ FORMAT D'UNE REPONSE
 
 {
     "compatibles":[
-        // liste de transporteurs fomatés selon le format décrit ci-dessus
-        // et ordonnés par order croissant de coût de livraison
+        // liste de transporteurs
     ],
     "partiellement-compatibles":[
         // liste de transporteurs
