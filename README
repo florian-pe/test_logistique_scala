@@ -1,4 +1,9 @@
 
+EXEMPLE
+
+curl -X POST -d '{"livraison": {"id": "livraison A","coordRetrait": {"latitude": 50.5804,"longitude": 3.1594},"coordLivraison": {"latitude": 50.6136,"longitude": 2.8308 }, "creneau": { "start": "08:00","end": "15:00" }, "VolumeInM3": 11,"PacketWeightInKg": 52}}' localhost:8080/json
+
+
 #####################
 #   SPECIFICATION   #
 #####################
